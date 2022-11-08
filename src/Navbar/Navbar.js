@@ -23,7 +23,7 @@ const Navbar = () =>{
     <a class="nav-link active text-dark" aria-current="page" href="/">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active text-dark" aria-current="page" href="/adas_archi">Adas Architecture</a>
+    <a class="nav-link active text-dark" aria-current="page" href="/Adas_Archi">Adas Architecture</a>
   </li>
   <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" onClick="dropdown" role="button">
@@ -35,17 +35,15 @@ const Navbar = () =>{
             <li><a class="dropdown-item" href="/lane_centering_assist">Lane Centering Assist</a></li>
             <li><a class="dropdown-item" href="/Uraban_chauffer">Urban Chauffeur</a></li>
             <li><hr class="dropdown-divider"></hr></li>
-            <li><a class="dropdown-item" href="/all_features">More..</a></li>
+            <li><a class="dropdown-item" href="/Adas_Features">More..</a></li>
           </ul>
         </li>
         <li class="nav-item ">
-          <a class="nav-link text-dark"  data-toggle="dropdown" onClick="dropdown" role="button">
-            Camers & Sensors
-          </a>
+        <a class="nav-link active text-dark" aria-current="page" href="/Cameras_Sensors">Cameras&Sensors</a>
         </li>
         
   <li class="nav-item">
-    <a class="nav-link text-dark" href="/about_us">About Us</a>
+    <a class="nav-link text-dark" href="/About_Us">About Us</a>
   </li>
 </ul>
   </div>
